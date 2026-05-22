@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudCode Editor | Project Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        h1 {
+            color: #58a6ff;
+            margin-bottom: 16px;
+            font-size: 32px;
+        }
+        h2 {
+            color: #8b949e;
+            margin: 32px 0 12px;
+            font-size: 22px;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 6px;
+        }
+        p {
+            margin-bottom: 14px;
+        }
+        ul {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+        pre {
+            background-color: #161b22;
+            padding: 16px;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 16px 0;
+            border: 1px solid #30363d;
+        }
+        code {
+            color: #79c0ff;
+        }
+        .legal {
+            background-color: #161b22;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border: 1px solid #30363d;
+        }
+        .contact {
+            margin-top: 12px;
+            color: #8b949e;
+        }
+    </style>
+</head>
+<body>
+    <h1>CloudCode Editor</h1>
+    <p>Lightweight Cross‑Platform Desktop Code Editor built with Python & CustomTkinter, compiled by Nuitka with ultra‑small size.</p>
+
+    <h2>✨ Core Features</h2>
+    <ul>
+        <li>Modern dark‑themed UI interface</li>
+        <li>Multi‑language support: Python, HTML, CSS, JavaScript, Java, C, C++, C#, Kotlin, Plain Text</li>
+        <li>Built‑in local HTTP server for real‑time HTML live preview</li>
+        <li>Complete file manager: create, open, save, rename, delete, refresh files/folders</li>
+        <li>Custom workspace directory support</li>
+        <li>One‑click EXE packaging function</li>
+        <li>Ultra‑small size & fast startup speed (Nuitka compiled)</li>
+        <li>Stable performance, low memory usage</li>
+    </ul>
+
+    <h2>📁 Project Structure (Real Repository Layout)</h2>
+<pre>
+CloudCode/
+├── .vscode/               # Standard VSCode project configuration
+├── src/                   # Core source code
+│   ├── main.py            # Main program entry
+│   └── locales/           # Multi‑language JSON packs (en / zh)
+├── CODE_OF_CONDUCT.md     # Developer code of conduct
+├── CONTACT.md             # Official contact information
+├── CONTRIBUTING.md        # Contribution guidelines
+├── LICENSE                # Open‑source license & legal disclaimer
+├── README.md              # GitHub markdown introduction
+└── SECURITY.md            # Security policy document
+</pre>
+
+    <h2>🧰 Requirements</h2>
+    <ul>
+        <li>Python ≥ 3.10</li>
+        <li>customtkinter</li>
+        <li>nuitka (compilation tool)</li>
+    </ul>
+
+    <h2>📦 Build Command</h2>
+<pre><code>py -m nuitka --onefile --standalone --windows-disable-console --output-filename=CloudCodeEditor src/main.py</code></pre>
+
+    <div class="legal">
+        <h2>📄 License & Legal Disclaimer</h2>
+        <p>This project is open‑source under the <strong>MIT License with strict usage restrictions</strong>.</p>
+        <ul>
+            <li>Do NOT modify, repackage, rebuild, or inject malicious code to create viruses, trojans, or malware.</li>
+            <li>All unauthorized modified versions are completely unrelated to the original author.</li>
+            <li>The original author assumes NO legal responsibility for improper use, malicious modification, or secondary distribution.</li>
+        </ul>
+        <div class="contact">
+            <strong>Official Contact:</strong> wwwbibiqqcom@qq.com
+        </div>
+    </div>
+</body>
+  </html>
