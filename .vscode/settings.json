@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "python.analysis.autoImportCompletions": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/*.spec": true
+    }
+}
